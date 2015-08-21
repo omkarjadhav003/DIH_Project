@@ -3,10 +3,10 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Storm_Water_Drain20150821175327483" name="Storm_Water_Drain">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Sewer_Line20150821185448292" name="Sewer_Line">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Sewer_Line20150719121134897" name="Sewer_Line">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Storm_Water_Drain20150821175327483" name="Storm_Water_Drain">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Lakes20150710115021470" name="Lakes">
@@ -18,16 +18,16 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Pump20150704175246050" name="Pump">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Head20150704180117737" name="Head">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Head20150704180117737" name="Head">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Pipes20150704174236078" name="Pipes">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Pipes20150704174236078" name="Pipes">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="iit_buildings20150628231507785" name="iit_buildings">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="iit_buildings20150628231507785" name="iit_buildings">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Lands20150710113210849" name="Lands">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Lands20150710113210849" name="Lands">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Roads20150628231016401" name="Roads">
@@ -36,7 +36,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="garden20150628230959545" name="Hostel Lawn">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="bhu3108201520150628230845283" name="bhu31082015">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="bhu3108201520150628230845283" name="bhu31082015">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="boundary20150628230922240" name="boundary">
@@ -50,10 +50,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>699042.1202249393099919</xmin>
-      <ymin>2794660.90974198468029499</ymin>
-      <xmax>700722.02001474949065596</xmax>
-      <ymax>2796447.57835446484386921</ymax>
+      <xmin>699749.5535126494942233</xmin>
+      <ymin>2794392.57297767978161573</ymin>
+      <xmax>701429.45330245967488736</xmax>
+      <ymax>2796179.24159015994518995</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -78,6 +78,7 @@
       <layer_coordinate_transform destAuthId="EPSG:32644" srcAuthId="EPSG:32644" srcDatumTransform="-1" destDatumTransform="-1" layerid="boundary20150628230922240"/>
       <layer_coordinate_transform destAuthId="EPSG:32644" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Head20150704180117737"/>
       <layer_coordinate_transform destAuthId="EPSG:32644" srcAuthId="EPSG:32644" srcDatumTransform="-1" destDatumTransform="-1" layerid="Roads20150628231016401"/>
+      <layer_coordinate_transform destAuthId="EPSG:32644" srcAuthId="EPSG:32644" srcDatumTransform="-1" destDatumTransform="-1" layerid="Sewer_Line20150821185448292"/>
       <layer_coordinate_transform destAuthId="EPSG:32644" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lands20150710113210849"/>
       <layer_coordinate_transform destAuthId="EPSG:32644" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lakes20150710115021470"/>
       <layer_coordinate_transform destAuthId="EPSG:32644" srcAuthId="EPSG:32644" srcDatumTransform="-1" destDatumTransform="-1" layerid="Buildings20150710121140864"/>
@@ -103,19 +104,19 @@
       <item>Lands20150710113210849</item>
       <item>Landmarks20150710114302124</item>
       <item>Lakes20150710115021470</item>
-      <item>Sewer_Line20150719121134897</item>
       <item>Storm_Water_Drain20150821175327483</item>
+      <item>Sewer_Line20150821185448292</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Storm_Water_Drain" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Storm_Water_Drain20150821175327483" visible="1"/>
-      </filegroup>
-    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Sewer_Line" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Sewer_Line20150719121134897" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Sewer_Line20150821185448292" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Storm_Water_Drain" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Storm_Water_Drain20150821175327483" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Lakes" showFeatureCount="0">
@@ -133,24 +134,24 @@
         <legendlayerfile isInOverview="0" layerid="Pump20150704175246050" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Head" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Head" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Head20150704180117737" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Head20150704180117737" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Pipes" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Pipes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Pipes20150704174236078" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Pipes20150704174236078" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="iit_buildings" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="iit_buildings" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="iit_buildings20150628231507785" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="iit_buildings20150628231507785" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Lands" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Lands" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Lands20150710113210849" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Lands20150710113210849" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Roads" showFeatureCount="0">
@@ -163,9 +164,9 @@
         <legendlayerfile isInOverview="0" layerid="garden20150628230959545" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="bhu31082015" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="bhu31082015" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="bhu3108201520150628230845283" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="bhu3108201520150628230845283" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="boundary" showFeatureCount="0">
@@ -909,14 +910,14 @@
       <layername>Lands</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
+          <proj4>+proj=utm +zone=44 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3128</srsid>
+          <srid>32644</srid>
+          <authid>EPSG:32644</authid>
+          <description>WGS 84 / UTM zone 44N</description>
+          <projectionacronym>utm</projectionacronym>
           <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
+          <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
       <provider encoding="System">ogr</provider>
@@ -1972,8 +1973,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Sewer_Line20150719121134897</id>
-      <datasource>../QGIS/Nikita/Sewer_Line.shp</datasource>
+      <id>Sewer_Line20150821185448292</id>
+      <datasource>./Sewer_Line.shp</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2014,7 +2015,7 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="214,205,104,255"/>
+              <prop k="line_color" v="183,91,102,255"/>
               <prop k="line_style" v="solid"/>
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
@@ -2489,10 +2490,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -3254,6 +3255,9 @@
       <DefaultSnapToleranceUnit type="int">1</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
         <value>Head20150704180117737</value>
+        <value>Lakes20150710115021470</value>
+        <value>Landmarks20150710114302124</value>
+        <value>Lands20150710113210849</value>
         <value>Pipes20150704174236078</value>
         <value>Pump20150704175246050</value>
         <value>Roads20150628231016401</value>
@@ -3261,11 +3265,10 @@
         <value>boundary20150628230922240</value>
         <value>garden20150628230959545</value>
         <value>iit_buildings20150628231507785</value>
-        <value>Lands20150710113210849</value>
-        <value>Landmarks20150710114302124</value>
-        <value>Lakes20150710115021470</value>
+        <value>Storm_Water_Drain20150821175327483</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>enabled</value>
         <value>enabled</value>
         <value>enabled</value>
         <value>enabled</value>
@@ -3292,8 +3295,10 @@
         <value>1</value>
         <value>1</value>
         <value>1</value>
+        <value>1</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -3309,6 +3314,7 @@
       <DefaultSnapType type="QString">to vertex and segment</DefaultSnapType>
       <DefaultSnapTolerance type="double">20</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>2.000000</value>
         <value>2.000000</value>
         <value>2.000000</value>
         <value>2.000000</value>
